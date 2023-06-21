@@ -1,15 +1,20 @@
 const h1 = document.querySelector('h1');
-const p = document.querySelector('p');
-const parafo1 = document.querySelector('.parrafo-2');
-const parafo2 = document.querySelector('#parrafo-3');
-const input = document.querySelector('input');
+const input1 = document.querySelector('#calcular1');
+const input2 = document.querySelector('#calcular2');
+const btn = document.querySelector('#btnCalcular');
+const Presultado = document.querySelector('#resultado');
 
-console.log(h1,p, parafo1, parafo2, input)
+
 
 
 //InnerHTML nos permite modificar los que se encuentra dentro de ella 
-h1.innerHTML = 'Cambio de Texto <br/> utilizando un br'
+h1.innerHTML = 'Cambio de Texto <br/> utilizando un br';
 
 //EVENTOS PARA SELECCIONAR LOS SELECTORES
 
+btn.addEventListener('click', btnOnClick);
 
+function btnOnClick() {
+    const sumaInputs = input1.value + input2.value;
+    Presultado.innerText = "Resultado: " + sumaInputs;
+}
