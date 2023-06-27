@@ -1,13 +1,15 @@
-class Book{
-constructor(a,b,c){
-    
-}
+class Book {
+    constructor(title, author, price) {
+        this._title = title;
+        this._author = author;
+        this._price = price;
 
-title = '1984';
-author = 'George Orwell';
-price = 350;
+    }
 }
 
 //Instancia  de Book
-const book1 = new Book();
-console.log(book1.author);
+const book1 = new Book('1984', 'Go', 350);
+
+console.log(book1._title);
+console.log(book1._author);
+console.log(book1._price);
