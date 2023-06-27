@@ -1,4 +1,4 @@
-¡Claro! Aquí tienes una presentación que resume la información sobre los arreglos en JavaScript:
+
 
 Slide 1:
 Título: Arreglos en JavaScript
@@ -38,7 +38,4 @@ Slide 8:
   - Los arreglos son poderosas estructuras de datos en JavaScript.
   - Permiten almacenar y manipular múltiples valores de manera eficiente.
 
-Slide 9:
-- ¡Gracias!
-  - Preguntas y respuestas.
 
