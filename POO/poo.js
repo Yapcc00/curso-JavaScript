@@ -1,3 +1,4 @@
+//creacion de propiedad, para hacer clases privadas 
 const _private = new WeakMap();
 
 // Clase Book (Libro)
